@@ -1,5 +1,5 @@
 {
-	"username": "Excalith",
+	"username": "doom_damocles.exe",
 	"theme": {
 		"name": "Default",
 		"backgroundColor": "#121317",
@@ -25,7 +25,7 @@
 		"fixedHeight": true,
 		"windowGlow": true,
 		"windowGlowColor": "#291f3325",
-		"textGlow": false,
+		"textGlow": true,
 		"opacity": 0,
 		"blur": 16
 	},
@@ -44,7 +44,7 @@
 	},
 	"fetch": {
 		"timeFormat": "HH:mm",
-		"dateFormat": "DD/MM/YYYY",
+		"dateFormat": "MM/DD/YYYY",
 		"titleColor": "yellow",
 		"image": "assets/default-icon.svg",
 		"data": [
@@ -65,7 +65,7 @@
 		"hoverColor": "magenta"
 	},
 	"search": {
-		"default": "https://google.com/search?q=",
+		"default": "https://duckduckgo.com/?q={}",
 		"target": "_self",
 		"shortcutRegex": "([A-Za-z0-9]+) (.*)",
 		"shortcuts": [
